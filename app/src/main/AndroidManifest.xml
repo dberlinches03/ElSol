@@ -20,9 +20,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".CompararActivity"
             android:exported="true">
         </activity>
+=======
+>>>>>>> e70c7479118de3ba7dcd499af8ae29dd5f6dad94
     </application>
 
 </manifest>

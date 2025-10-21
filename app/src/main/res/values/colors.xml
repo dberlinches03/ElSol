@@ -3,7 +3,11 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="orange_toolbar">#FFB300</color>
+<<<<<<< HEAD
     <color name="purple_light">#E1BEE7</color>
     <color name="toolbar_gray">#B0BEC5</color>
     <color name="pink">#FF4081</color>
+=======
+    <color name="toolbar_gray">#B0BEC5</color>
+>>>>>>> e70c7479118de3ba7dcd499af8ae29dd5f6dad94
 </resources>

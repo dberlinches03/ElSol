@@ -1,5 +1,6 @@
 package com.example.elsol
 
+<<<<<<< HEAD
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
@@ -8,6 +9,15 @@ import androidx.appcompat.widget.Toolbar
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
+=======
+import android.os.Bundle
+import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
+>>>>>>> e70c7479118de3ba7dcd499af8ae29dd5f6dad94
 import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
@@ -28,6 +38,7 @@ class MainActivity : AppCompatActivity() {
         val recyclerView = findViewById<RecyclerView>(R.id.solarRecyclerView)
         recyclerView.layoutManager = GridLayoutManager(this, 2)
         recyclerView.adapter = SolarAdapter(solarItems)
+<<<<<<< HEAD
 
         val toolbar = findViewById<Toolbar>(R.id.toolbarMain)
         setSupportActionBar(toolbar)
@@ -47,5 +58,7 @@ class MainActivity : AppCompatActivity() {
             }
             else -> super.onOptionsItemSelected(item)
         }
+=======
+>>>>>>> e70c7479118de3ba7dcd499af8ae29dd5f6dad94
     }
 }
